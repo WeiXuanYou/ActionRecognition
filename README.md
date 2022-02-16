@@ -14,7 +14,6 @@
 
     
     $git clone https://github.com/open-mmlab/denseflow.git
-    $git clone https://github.com/open-mmlab/denseflow.git
     $cd denseflow && mkdir build && cd build
     $cmake -DCMAKE_INSTALL_PREFIX=$HOME/app -DUSE_HDF5=no -DUSE_NVFLOW=no ..
     $make -j(cpu_num)
