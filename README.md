@@ -34,6 +34,7 @@ You can use following command to change your gcc version
                                --num-worker 6 --flow-type tvl1 --out-format jpg 
                                --ext webm --num-gpu your_gpu_num
 **Issue 1 : src_dir and out_folder are set but not found**
+
 you can download build_rawframes.py from this github respository and change the output_dir_path and my_src_dir_path in the file to your path
 
 ## Reference
